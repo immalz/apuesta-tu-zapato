@@ -40,7 +40,7 @@ export class LayoutComponent {
       },
       deck2: {
         id: 4,
-        name: 'Gallantmon',
+        name: 'Alter S',
         description: 'This is the fourth deck.',
         player: 'Player 1',
         image: 'assets/images/decks/alters.jpg',
