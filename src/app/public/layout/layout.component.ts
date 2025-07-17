@@ -24,7 +24,7 @@ export class LayoutComponent {
       },
       deck2: {
         id: 2,
-        name: 'Kaguyamon',
+        name: 'Galaxy',
         description: 'This is the second deck.',
         player: 'Player 1',
         image: 'assets/images/decks/galaxy.jpeg',
