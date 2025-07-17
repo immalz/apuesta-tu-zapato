@@ -1,0 +1,56 @@
+.nav {
+    width: 100%;
+    background-color: rgb(231, 152, 87);
+    height: 80px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+    &__left {
+        display: flex;
+        align-items: center;
+        img {
+            width: 70px;
+        }
+    
+        .text-header {
+            margin-left: 10px;
+            color: white;
+            font-size: 1.5rem;
+            font-weight: 700;
+    
+            p {
+                margin: 0;
+            }
+        }
+    }
+
+    &__right {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        button {
+            padding: 10px 20px;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+            transition: color 0.3s;
+            font-weight: 500;
+        }
+
+        button:nth-child(1) {
+            background-color: black;
+            color: white;
+            
+        }
+
+        button:nth-child(2) {
+            background-color: transparent;
+            border: 1px solid #fff;
+            color: #fff
+        }
+    }
+}
