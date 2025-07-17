@@ -4,7 +4,7 @@
 <main class="main">
     <!-- <router-outlet></router-outlet> -->
      <div class="cards">
-        <app-card *ngFor="let item of ['','','','','']"></app-card>
+        <app-card [match]="match" *ngFor="let match of matchs"></app-card>
      </div>
 </main>
 

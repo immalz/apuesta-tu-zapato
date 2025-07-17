@@ -1,11 +1,13 @@
 .main {
     // width: 100dvw;
-    height: 100dvh;
+    height: auto;
     display: flex;
     flex-direction: column;
     // padding: 20px;
     justify-content: center;
     gap: 20px;
+    padding: 20px 0;
+
 
     .cards {
         width:  80%;
@@ -18,10 +20,9 @@
 }
 
 
-@media (max-width: 768px) {
+
+@media (max-width: 1400px) {
     .main {
-        height: auto;
-        padding: 20px 0 ;
         .cards {
             width: 100%;
             flex-direction: column;

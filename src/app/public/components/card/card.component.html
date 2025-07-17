@@ -22,21 +22,21 @@
     <div class="card__content">
         <div class="players">
             <div class="img">
-                <img src="assets/images/decks/galaxy.jpeg" alt="">
+                <img [src]="match.deck1.image" [alt]="match.deck1.name">
             </div>
             <div class="text">
-                <h4>Jugador 1</h4>
-                <p>Deck: Galaxy</p>
+                <h4>{{match.deck1.player}}</h4>
+                <p>Deck: {{match.deck1.name}}</p>
                 <p class="button">Ganador</p>
             </div>
         </div>
         <div class="players">
             <div class="img">
-                <img src="assets/images/decks/sakuyamon.webp" alt="">
+                <img [src]="match.deck2.image" [alt]="match.deck2.name">
             </div>
             <div class="text">
-                <h4>Jugador 2</h4>
-                <p>Deck: Sakuyamon</p>
+                <h4>{{match.deck2.player}}</h4>
+                <p>Deck: {{match.deck2.name}}</p>
                 <p class="button">Ganador</p>
             </div>
         </div>
